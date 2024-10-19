@@ -51,6 +51,10 @@ $ anvil
 $ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
+```shell
+$ forge script script/DeploySimpleStorage.s.sol --rpc-url=$ZKSYNC_RPC_URL --private-key=$ZKSYNC_PRIVATE_KEY --legacy --zksync --broadcast
+```
+
 ### Cast
 
 ```shell
